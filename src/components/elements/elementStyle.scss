@@ -1,0 +1,40 @@
+.heroScroller {
+  background-color: #45a29e;
+  border-radius: 9999px;
+  width: 0.75rem;
+  height: 0.75rem;
+  margin-bottom: 0.25rem;
+}
+.imageSlider {
+  height: 100%;
+  width: 100%;
+  appearance: none;
+  filter: drop-shadow(0 0 1.5rem #66fcf1);
+}
+.blob {
+  animation: morph 3.6s linear infinite;
+  background: #292d44;
+  border-collapse: separate;
+  background-size: cover;
+  background-position: center;
+  outline: 1px solid transparent;
+}
+
+@keyframes morph {
+  0%,
+  100% {
+    border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -webkit-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+    -moz-border-radius: 40% 60% 70% 30% / 40% 40% 60% 50%;
+  }
+  34% {
+    border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -webkit-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+    -moz-border-radius: 70% 30% 50% 50% / 30% 30% 70% 70%;
+  }
+  67% {
+    border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -webkit-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+    -moz-border-radius: 100% 60% 60% 100% / 100% 100% 60% 60%;
+  }
+}

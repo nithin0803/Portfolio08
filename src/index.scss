@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Foldit:wght@100&family=Moirai+One&family=Philosopher:wght@700&family=Shadows+Into+Light&family=Teko&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Foldit", cursive;
+  font-family: "Moirai One", cursive;
+  font-family: "Philosopher", sans-serif;
+  font-family: "Shadows Into Light", cursive;
+  font-family: "Teko", sans-serif;
+  background: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png") !important;
+  background-color: #0b0c10 !important;
+  position: relative !important;
+  overflow-x: hidden !important;
+  -webkit-overflow-x: hidden !important;
+}
+
+/*color pallet
+c1:#0B0C10;
+c2:#1F2833;
+c3:#C5C6C7;
+c4:#66FCF1;
+c5:#45A29E;
+*/
